@@ -108,20 +108,25 @@
 
 
 
-  <meta property="og:type" content="website">
-<meta property="og:title" content="胖猫的技术站">
-<meta property="og:url" content="http://yoursite.com/index.html">
+  <meta name="description" content="机缘巧合，自13年始，算是踏入医疗影像软件的领域。不长不短，5年有余，也可称略窥门径。由于英语欠佳，常希望有高质量的中文资料可供查询，未尝如愿。现略有所学，便记录于此，一则方便如我者查询，二则防止自己忘记。然想来，英语如我者，总是不多，所以还是后者多些吧。以下是正文。医疗影像软件，顾名思义，是用来查看，处理医疗影像的软件。医疗影像，即常听到的X光，CT，MR，B超等等。这些图像的格式，经过多年的发">
+<meta name="keywords" content="医疗影像软件,QT,VTK,ITK,DCMTK">
+<meta property="og:type" content="article">
+<meta property="og:title" content="医疗影像软件开发（一）简介">
+<meta property="og:url" content="http://yoursite.com/2018/05/18/med-soft-dev-1/index.html">
 <meta property="og:site_name" content="胖猫的技术站">
+<meta property="og:description" content="机缘巧合，自13年始，算是踏入医疗影像软件的领域。不长不短，5年有余，也可称略窥门径。由于英语欠佳，常希望有高质量的中文资料可供查询，未尝如愿。现略有所学，便记录于此，一则方便如我者查询，二则防止自己忘记。然想来，英语如我者，总是不多，所以还是后者多些吧。以下是正文。医疗影像软件，顾名思义，是用来查看，处理医疗影像的软件。医疗影像，即常听到的X光，CT，MR，B超等等。这些图像的格式，经过多年的发">
 <meta property="og:locale" content="zh-CN">
+<meta property="og:updated_time" content="2018-05-17T16:33:21.320Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="胖猫的技术站">
+<meta name="twitter:title" content="医疗影像软件开发（一）简介">
+<meta name="twitter:description" content="机缘巧合，自13年始，算是踏入医疗影像软件的领域。不长不短，5年有余，也可称略窥门径。由于英语欠佳，常希望有高质量的中文资料可供查询，未尝如愿。现略有所学，便记录于此，一则方便如我者查询，二则防止自己忘记。然想来，英语如我者，总是不多，所以还是后者多些吧。以下是正文。医疗影像软件，顾名思义，是用来查看，处理医疗影像的软件。医疗影像，即常听到的X光，CT，MR，B超等等。这些图像的格式，经过多年的发">
 
 
 
 
 
 
-  <link rel="canonical" href="http://yoursite.com/"/>
+  <link rel="canonical" href="http://yoursite.com/2018/05/18/med-soft-dev-1/"/>
 
 
 
@@ -131,7 +136,7 @@
   };
 </script>
 
-  <title>胖猫的技术站</title>
+  <title>医疗影像软件开发（一）简介 | 胖猫的技术站</title>
   
 
 
@@ -178,8 +183,7 @@
     
   
 
-  <div class="container sidebar-position-left 
-  page-home">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -216,7 +220,7 @@
         
         
           
-          <li class="menu-item menu-item-home menu-item-active">
+          <li class="menu-item menu-item-home">
     <a href="/" rel="section">
       <i class="menu-item-icon fa fa-fw fa-home"></i> <br />首页</a>
   </li>
@@ -276,9 +280,9 @@
           
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
 
   
 
@@ -310,11 +314,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2018/05/18/med-soft-dev-1/" itemprop="url">
-                  医疗影像软件开发（一）简介
-                </a>
+          <h1 class="post-title" itemprop="name headline">医疗影像软件开发（一）简介
               
             
           </h1>
@@ -391,16 +391,12 @@
       
 
       
-        
-          
-            <p>机缘巧合，自13年始，算是踏入医疗影像软件的领域。<br>不长不短，5年有余，也可称略窥门径。<br>由于英语欠佳，常希望有高质量的中文资料可供查询，未尝如愿。<br>现略有所学，便记录于此，一则方便如我者查询，二则防止自己忘记。<br>然想来，英语如我者，总是不多，所以还是后者多些吧。<br>以下是正文。<br>医疗影像软件，顾名思义，是用来查看，处理医疗影像的软件。<br>医疗影像，即常听到的X光，CT，MR，B超等等。<br>这些图像的格式，经过多年的发展，现在有个国际标准，英文缩写作DICOM。<br>这些图像，便也常常称作DICOM图像。<br>而医疗影像软件，就是和这些DICOM图像打交道。<br>现在大多数图像处理软件，还是用C++来编写的，医疗影像软件也不例外。<br>我们现在常用的框架，是由QT，dcmtk，vtk，itk等开源库组成的。<br>下面稍微介绍一下用到的框架和库。</p>
+        <p>机缘巧合，自13年始，算是踏入医疗影像软件的领域。<br>不长不短，5年有余，也可称略窥门径。<br>由于英语欠佳，常希望有高质量的中文资料可供查询，未尝如愿。<br>现略有所学，便记录于此，一则方便如我者查询，二则防止自己忘记。<br>然想来，英语如我者，总是不多，所以还是后者多些吧。<br>以下是正文。<br>医疗影像软件，顾名思义，是用来查看，处理医疗影像的软件。<br>医疗影像，即常听到的X光，CT，MR，B超等等。<br>这些图像的格式，经过多年的发展，现在有个国际标准，英文缩写作DICOM。<br>这些图像，便也常常称作DICOM图像。<br>而医疗影像软件，就是和这些DICOM图像打交道。<br>现在大多数图像处理软件，还是用C++来编写的，医疗影像软件也不例外。<br>我们现在常用的框架，是由QT，dcmtk，vtk，itk等开源库组成的。<br>下面稍微介绍一下用到的框架和库。</p>
 <h2 id="QT简介"><a href="#QT简介" class="headerlink" title="QT简介"></a>QT简介</h2><p>Qt 是一个1991年由Qt Company开发的跨平台C++图形用户界面应用程序开发框架。<br>到现在已经20多年的历史，版本迭代已到5.9。<br>Qt在图形界面框架外，提供了包括多线程，网络通信，xml，sql，math等常用模块外，还提供了IDE，本地化，单元测试等开发工具。<br>再加上方便的跨平台编译能力，作为C++语言的框架，QT可算是首屈一指了。<br>进入5.0时代，更是扶正QtQuick系统作为界面系统，做到用户界面设计和业务逻辑的分离。<br>我个人看来，Qt已经成为了可以比肩WPF的一流图形界面框架系统。</p>
 <h2 id="DCMTK"><a href="#DCMTK" class="headerlink" title="DCMTK"></a>DCMTK</h2><p>DCMTK的应该是dicom toolkit的缩写。这个库是从1993年一直维护至今。<br>最新的稳定版本是3.6.2。<br>也就是专门用来实现dicom标准的。<br>包括了图像格式的解析，传输协议的实现。<br>现在应该是对Dicom标准实现最好的库了，至少在c++领域是如此。</p>
 <h2 id="VTK"><a href="#VTK" class="headerlink" title="VTK"></a>VTK</h2><p>VTK的全称是The Visualization Toolkit。<br>看名字就知道这是一个可视化库。<br>因为原生支持一些医学图像格式的解析和显示，所以一般医疗影像软件都用VTK作为可视化库。<br>现在最新的版本是8.1.0，不过我现在使用的还是7.0.0。</p>
 <h2 id="ITK"><a href="#ITK" class="headerlink" title="ITK"></a>ITK</h2><p>ITK的全称是Insight Segmentation and Registration Toolkit。<br>主要是包装了一些经典的图像处理算法，用来进行常用的图像分割和配准。<br>至于为什么叫Insight，就不知道了。<br>现在最新的版本是4.13.0。</p>
 
-          
-        
       
     </div>
 
@@ -418,14 +414,28 @@
 
     <footer class="post-footer">
       
+        <div class="post-tags">
+          
+            <a href="/tags/医疗影像软件/" rel="tag"># 医疗影像软件</a>
+          
+            <a href="/tags/QT/" rel="tag"># QT</a>
+          
+            <a href="/tags/VTK/" rel="tag"># VTK</a>
+          
+            <a href="/tags/ITK/" rel="tag"># ITK</a>
+          
+            <a href="/tags/DCMTK/" rel="tag"># DCMTK</a>
+          
+        </div>
+      
+
+      
+      
+      
 
       
 
       
-
-      
-      
-        <div class="post-eof"></div>
       
     </footer>
   </div>
@@ -435,14 +445,19 @@
   </article>
 
 
-    
-  </section>
 
-  
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
           
+
+  
+
+
 
         </div>
         
@@ -463,8 +478,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -543,6 +567,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#QT简介"><span class="nav-number">1.</span> <span class="nav-text">QT简介</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#DCMTK"><span class="nav-number">2.</span> <span class="nav-text">DCMTK</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#VTK"><span class="nav-number">3.</span> <span class="nav-text">VTK</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#ITK"><span class="nav-number">4.</span> <span class="nav-text">ITK</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -670,6 +710,10 @@
   
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=6.3.0"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=6.3.0"></script>
+
+
 
   
 
